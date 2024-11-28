@@ -15,7 +15,7 @@ describe('PDF file comparison', () => {
         });
     })
 
-    it('Should compare two Different PDF and asser',  () => {
+    it('Should compare two Different PDF and assert',  () => {
         cy.task('comparePdfFiles', {
             actualPdf: 'actualDraftReport_different.pdf',
             baselinePdf: 'baselineDraftReport.pdf',
