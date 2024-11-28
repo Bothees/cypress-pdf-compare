@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es2019",
+    "module": "esNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["esNext", "dom"],
+    "typeRoots": ["./node_modules/@types", "../tests/cypress/support"],
+    "types": ["cypress", "node"]
+  },
+  "include": ["./**/*.ts"],
+}

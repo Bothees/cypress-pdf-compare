@@ -1,0 +1,18 @@
+{
+  "name": "cypress",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/cypress": "^1.1.6",
+    "cypress": "^13.13.1",
+    "compare-pdf": "^1.1.8",
+    "resolve": "^1.22.1",
+    "typescript": "^4.9.5",
+    "ts-loader": "^9.5.1",
+    "path": "^0.12.7"
+  }
+}
